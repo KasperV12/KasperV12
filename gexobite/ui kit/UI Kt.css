@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+* {box-sizing: border-box;}
+
+body{background: #F2F2F2;
+
+}
+.form_name {
+  position: relative;
+  width: 552px;
+
+}
+
+.form_vipad {
+  position: relative;
+  width: 552px;
+
+}
+.vipad{
+  width: 552px;
+
+}
+.vipad input {
+  width: 100%;
+  height: 56px;
+  padding-left: 50px;
+  border: 1px solid #EAEAF3;
+  border-radius: 12px;
+  outline: none;
+  background: #FFFFFF;
+  font-family: Ubuntu;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.vipad input:focus, .vipad input:hover{
+  border: 1px solid #19B7BB;
+  transition: all 0.5s ease 0s;
+}
+.strela svg:hover, .strela svg:focus{
+  transform: rotate(180deg);
+  fill: #fff;
+  transition: all 0.5s ease 0s;
+}
+.vipad .knopka_vopros {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 16px 0 16px 17px;
+  color: #BCBCC7;
+  background: url(../img/input-question-icon.svg) no-repeat;
+  height: 30px;
+  width: 22px; 
+  border: none;
+  cursor: pointer;
+}
+.vipad .knopka_vopros:focus, .vipad .knopka_vopros:hover{
+  color: #252729;
+}
+.knopka_strela{
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 16px 16px 16px 0;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: #EAEAF3;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.knopka_strela:hover, .knopka_strela:focus{
+  background-color: #19B7BB;
+  transition: all 0.5s ease 0s;
+}
+.strella{
+  display: block;
+  position: relative;
+  z-index: 4;
+  width: 100%;
+}
+.strella svg{
+  fill: #BCBCC7;
+}
+.strella svg:hover, .strela svg:focus{
+  transform: rotate(180deg);
+  fill: #fff;
+  transition: all 0.5s ease 0s;
+}
+
+
+/*это для списка*/
+.vipad_child {
+  width: 552px;
+  position: absolute;
+  top: 60px;
+  display: none;
+  background-color: #fff;
+  border-radius: 12px;
+}
+.vipad_child a {
+  color: #252729;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 8px 0 8px 16px;
+  border-bottom: 1px solid #EAEAF3;
+  text-decoration: none;
+  display: block;
+}
+.vipad_child a:hover{
+  color: #BCBCC7;
+  transition: all 0.5s ease 0s;
+}
+.vipad_child a:last-child {
+  border-bottom: 0px solid #EAEAF3;
+}
+.vipad:hover .vipad_child {
+  display: block;
+}
+
+
+
+
+
+.scroll {
+  background: linear-gradient(180deg, #F7D479 0%, #EBBD46 100%);
+  width: 48px;
+  height: 72px;
+  border-radius: 100px;
+  
+}
+.circle {
+  position: relative;
+  top: 23%;
+  margin: 0 auto;
+  text-align: center;
+  width: 23px;
+  height: 40px;
+  border: 2px solid #fff;
+  border-radius: 100px;
+}
+.circle__dot {
+  position: relative;
+  top: 23%;
+  margin: 0 auto;
+  text-align: center;
+  width: 2px;
+  height: 8px;
+  border: 1px solid #fff;
+  border-radius: 100px;
+}
+
+.scroll, .circle__dot:hover{
+  top: 40%;
+  transition: all 0.5s ease 0s;
+}
+
+.vvod_imeni input {
+  width: 100%;
+  height: 56px;
+  padding-left: 50px;
+  border: 1px solid #EAEAF3;
+  border-radius: 12px;
+  outline: none;
+  background: #FFFFFF;
+  font-family: Ubuntu;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.vvod_imeni input:focus, .vvod_imeni input:hover{
+  border: 1px solid #19B7BB;
+  transition: all 0.5s ease 0s;
+}
+.vvod_imeni button {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 16px 0 16px 17px;
+  color: #BCBCC7;
+  background: url(../img/input-user-icon.svg) no-repeat;
+  height: 22px;
+  width: 22px; 
+  border: none;
+  cursor: pointer;
+}
+.vvod_imeni button:focus, .vvod_imeni button:hover{
+  color: #252729;
+}
+.botom{
+  padding: 20px;
+}
+.bottom{
+  padding: 0 0 16px 0;
+}
+.vipad{
+  width: 552px;
+  height: 56px;
+}
+.mars {
+width: 160px;
+height: 40px;
+
+  border: 1px solid #EAEAF3;
+  border-radius: 25px;
+  outline: none;
+  background: #FFFFFF;
+  font-family: Ubuntu;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 300;
+}
+ .mars{
+
+ text-align: left;  
+ position: absolute;
+  padding-left: 50px;}
+.mars1 {
+  width: 122px;
+  height: 140px;
+  border: 1px solid #EAEAF3;
+  border-radius: 25px;
+  outline: none;
+  background: #FFFFFF;
+  font-family: Ubuntu;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 300; 
+}
+
+
+a:hover {
+   color: #BCBCC7;
+  transition: all 0.5s ease 0s
+}
+.vipad_menu a{
+  text-decoration: none;
+}
+.mars1 li:last-child{
+  border-bottom: 0px;
+}
+
+.mars2{
+  margin: 8px 0;  
+}
+.bt1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 32px;
+  text-align: top;
+  position: absolute;
+  width: 158px;
+  height: 56px;
+  left: 31px;
+  top: 1099px;
+
+
+}
+.bt2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 32px;
+
+  position: absolute;
+  width: 115px;
+  height: 56px;
+  left: 211px;
+  top:1099px;
+}
+.bt3:focus{
+  box-shadow: 0px 8px 16px 0px #19B7BB52;
+  transition: all 0.7s ease 0s;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.15) inset;
+
+}
+.bt2:hover{
+
+  box-shadow: 0px 8px 16px 0px #19B7BB52;
+  transition: all 0.7s ease 0s;
+
+
+}
+
+.spas{
+  position: static;
+  width: 94px;
+  height: 24px;
+  left: 32px;
+  top: 16px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+
+
+  color: #FFFFFF;
+
+
+
+
+}
+.vipad_child a:hover{
+  color: #BCBCC7;
+  border-bottom: 1px solid #19B7BB;
+  transition: all 0.5s ease 0s;
+}
+.bt3{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 32px;
+
+  position: absolute;
+  width: 117px;
+  height: 56px;
+  left: 348px;
+  top: 1099px;
+}
+.teleg{
+
+  position: absolute;
+  width: 264px;
+  height: 48px;
+  left: 31px;
+  top: 1179px;
+
+  /* white */
+
+  background: #FFFFFF;
+  /* lighGrey_2 */
+
+  border: 1px solid #EAEAF3;
+  box-sizing: border-box;
+  /* btnShadow */
+
+  box-shadow: 0px 8px 16px rgba(116, 115, 115, 0.15);
+  border-radius: 12px;
+
+}
+.telegram_kartinka{
+position: absolute;
+left: 20px;
+
+}
+.telegram_napisat{
+ font-family: Ubuntu;
+ font-style: normal;
+ font-weight: 300;
+ font-size: 18px;
+ line-height: 24px;
+
+ /* black */
+
+ color: #252729
+}
+.Grad{
+  /* bestGradient */
+  border: none;
+  background: linear-gradient(267.71deg, #1ACACE 0%, #19B7BB 100%);
+  border-radius: 12px;
+}
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,300,700,500");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,300,700,500");
+
+.social {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 100px;
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
+.social svg{
+  position: absolute;
+  margin: 10px;
+  z-index: 100;
+  fill: #19B7BB;
+}
+.social:hover{
+  background-color: #19B7BB;
+  box-shadow: 0px 8px 16px rgba(116, 115, 115, 0.15);
+  transition: all 0.5s ease 0s;
+}
+.social:hover.social svg{
+  fill: #fff;
+  transition: all 0.5s ease 0s;
+}
+
+.social:focus{
+  background-color: #19B7BB;
+  box-shadow: 0px 8px 16px rgba(116, 115, 115, 0.15), inset 0px 0px 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.5s ease 0s;
+}
+.social:focus.social svg{
+  fill: #fff;
+  transition: all 0.5s ease 0s;
+}
+
+.scroll {
+  background: linear-gradient(180deg, #F7D479 0%, #EBBD46 100%);
+  width: 48px;
+  height: 72px;
+  border-radius: 100px;
+  
+}
+.circle {
+  position: relative;
+  top: 23%;
+  margin: 0 auto;
+  text-align: center;
+  width: 23px;
+  height: 40px;
+  border: 2px solid #fff;
+  border-radius: 100px;
+}
+.circle__dot {
+  position: relative;
+  top: 23%;
+  margin: 0 auto;
+  text-align: center;
+  width: 2px;
+  height: 8px;
+  border: 1px solid #fff;
+  border-radius: 100px;
+}
+
+.scroll, .circle__dot:hover{
+  top: 40%;
+  transition: all 0.5s ease 0s;
+}
