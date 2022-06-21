@@ -188,11 +188,12 @@
 
 <script type="text/javascript">
     const form = document.getElementById('form')
-    const formData = new FormData(form)
-
+    
     form.addEventListener('submit', e =>{
       e.preventDefault()
-
+      
+      const formData = new FormData(form)
+      
       fetch(form.action,{
         method: "POST",
         body: formData
